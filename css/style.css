@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.attribution { 
+    font-size: 11px; 
+    color: white;
+    text-align: center; 
+}
+.attribution a { 
+    color: rgb(62, 82, 163); 
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.attribution a:hover{
+    opacity: .7;
+}
+
+.nft-card{
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.nft-image{
+    position: relative;
+}
+
+.nft-image img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.nft-image-hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+    height: calc(100% - 2px);
+    top: 0;
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(0, 255, 247, .5);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nft-image-hover img{
+    width: 40px;
+}
+
+.nft-image-hover:hover{
+    opacity: 1;
+}
+
+.nft-description, .nft-description-text p, .nft-info, .line, .nft-author{
+    margin-top: 15px;
+}
+
+.nft-description-text h1{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nft-description-text h1:hover, .nft-author span:hover{
+    color: hsl(178, 100%, 50%);
+} 
+
+.nft-description-text p, .nft-description-date span, .nft-author p{
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-description-price{
+    color: hsl(178, 100%, 50%);    
+}
+
+.nft-description-price, .nft-description-date{
+    display: flex;
+    align-items: center;
+}
+
+.nft-description-price img, .nft-description-date img{
+    margin-right: 5px;
+}
+
+.nft-author{
+    display: flex;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 10px;
+    align-items: center;
+}
+
+.nft-author img{
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nft-author span{
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
