@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution](https://www.frontendmentor.io/solutions/nft-card-component-responsive-5O5AgHG59b)
-- Live Site URL: [Live site]([https://nft-card-component-abismodev.vercel.app/s](https://nft-card-component-blond-six.vercel.app/))
+- Live Site URL: [Live site](https://nft-card-component-blond-six.vercel.app/)
 
 ## My process
 
